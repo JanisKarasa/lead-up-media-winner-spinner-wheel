@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8" />
+    <title>Spin The Wheel - Hyper Strike&trade;</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <script src="assets/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script type="text/javascript" src="assets/js/game.js"></script>
+
+    <!-- Google Tag Manager -->
+
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+
+    <!-- End Google Tag Manager (noscript) -->
+
+    <video
+      onloadeddata="this.play();"
+      preload="auto"
+      autoplay
+      muted
+      playsinline
+      loop
+    >
+      <source src="assets/img/swirl-bg.m4v" type="video/mp4" />
+      <source src="assets/img/swirl-bg.webm" type="video/webm" />
+    </video>
+
+    <img class="coins" src="assets/img/coins.png" />
+
+    <img class="sparkle-1" src="assets/img/sparkle.png" />
+    <img class="sparkle-2" src="assets/img/sparkle.png" />
+    <img class="sparkle-3" src="assets/img/sparkle.png" />
+    <img class="sparkle-4" src="assets/img/sparkle.png" />
+    <img class="sparkle-5" src="assets/img/sparkle.png" />
+
+    <img class="seven" src="assets/img/seven.png" />
+    <img class="wild" src="assets/img/wild.png" />
+
+    <img class="shadow-top" src="assets/img/shadow-top.png" />
+    <img class="shadow-top-small" src="assets/img/shadow-top-small.png" />
+
+    <div class="main-container">
+      <img class="header" src="assets/img/header.png" />
+      <div id="spin-to-win-container">
+        <img class="right" src="assets/img/star-right.png" />
+        <img class="left" src="assets/img/star-left.png" />
+        <img class="shadow" src="assets/img/glow.png" />
+      </div>
+      <img class="bottom" src="assets/img/bottom.png" />
+      <img class="bottom-mobile" src="assets/img/bottom-mobile.png" />
+    </div>
+
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+
+    <script async type="text/javascript">
+      var _qs = parseQuery(window.location.search); //gets queryString and globally defines inside this scope as _qs
+      window.startGame(
+        "assets/json/assets.json",
+        "assets/json/settings.json",
+        "assets/json/language-v5.json",
+        callBackExample.bind(this)
+      );
+
+      function parseQuery(q) {
+        for (
+          var n = {}, o = ("?" === q[0] ? q.substr(1) : q).split("&"), r = 0;
+          r < o.length;
+          r++
+        ) {
+          var t = o[r].split("=");
+          n[decodeURIComponent(t[0])] = decodeURIComponent(t[1] || "");
+        }
+        return n;
+      }
+
+      function setParam(param, val) {
+        return _qs[param] === undefined ? val : _qs[param];
+      }
+      function callBackExample() {
+        var url =
+          // click pop
+          // "https://click.cr-brands.net/affiliate/referral.asp?" +
+          "https://google.com?" +
+          "site=" +
+          setParam("dsite", "") +
+          "&url=" +
+          setParam("durl", "") +
+          "&seg=" +
+          setParam("seg", "") +
+          "&lid=" +
+          setParam("lid", "") +
+          "&aff_id=" +
+          setParam("aff_id", "") +
+          "&atk=" +
+          setParam("atk", "") +
+          "&ln=" +
+          setParam("ln", "") +
+          "&fn=" +
+          setParam("fn", "") +
+          "&email=" +
+          setParam("email", "") +
+          "&v=" +
+          setParam("v", "0") +
+          "&hf=" +
+          setParam("hf", "") +
+          "&fbclid=" +
+          setParam("fbclid", "") +
+          "&aged=" +
+          setParam("aged", "");
+
+        console.log("URL: ", url);
+        //window.location.href = url;
+        var win = window.open(url, "_blank");
+        win.focus();
+      }
+
+      $(".modal-link").click(function () {
+        var url =
+          // click pop
+          // "https://click.cr-brands.net/affiliate/referral.asp?" +
+          "https://google.com?" +
+          "site=" +
+          setParam("dsite", "") +
+          "&url=" +
+          setParam("durl", "") +
+          "&seg=" +
+          setParam("seg", "") +
+          "&lid=" +
+          setParam("lid", "") +
+          "&aff_id=" +
+          setParam("aff_id", "") +
+          "&atk=" +
+          setParam("atk", "") +
+          "&ln=" +
+          setParam("ln", "") +
+          "&fn=" +
+          setParam("fn", "") +
+          "&email=" +
+          setParam("email", "") +
+          "&v=" +
+          setParam("v", "0") +
+          "&hf=" +
+          setParam("hf", "") +
+          "&fbclid=" +
+          setParam("fbclid", "") +
+          "&aged=" +
+          setParam("aged", "");
+
+        var redirectWindow = window.open(url, "_blank");
+        $.ajax({
+          type: "POST",
+          url: "/echo/json/",
+          success: function (data) {
+            redirectWindow.location;
+          }
+        });
+      });
+    </script>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

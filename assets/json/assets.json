@@ -1,0 +1,13 @@
+{
+  "sprites": {
+    "wheelArrowTexture": "assets/img/pointer.png",
+    "summaryBackground": "assets/img/background-gold-new.png",
+    "wheelButtonTexture": "assets/img/centre-btn.png",
+    "wheelSegmentsTexture": "assets/img/WheelSegment.png",
+    "wheelBackgroundTexture": "assets/img/WheelOuterNew.png",
+    "summaryButtonTexture": "assets/img/summaryButtonGold.png",
+    "backgroundTexture": "assets/img/transparent-bg.png",
+    "lightOnTexture": "",
+    "lightOffTexture": ""
+  }
+}

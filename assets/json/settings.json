@@ -1,0 +1,16 @@
+{
+  "spinTimeInSeconds": 7,
+  "winValues": [3],
+  "summaryDelay": 1000,
+  "wheelTextXPosition": 260,
+  "wheelArrowYOffset": 120,
+  "wheelArrowXOffset": -465,
+  "headerYPosition": 150,
+  "showRedirectButton": true,
+  "numberOfRunningLights": 40,
+  "idleRunningLightFlashTimeInSeconds": 0.1,
+  "spinRunningLightFlashTimeInSeconds": 0.01,
+  "runningLightDimTimeInSeconds": 0.5,
+  "runningLightsWinFlashIntervals": 0.1,
+  "runningLightsWinFlashAmount": 9
+}

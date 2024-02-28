@@ -1,0 +1,683 @@
+{
+  "wheelSegmentSettings": [
+    {
+      "segmentText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff", "#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 3,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsHeader": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 60,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#f4c300"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsSummary": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#f4c300"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "summaryText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "segmentText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff", "#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 3,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsHeader": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 60,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsSummary": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "summaryText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "segmentText": {
+        "text": "",
+        "fontFamily": "Roboto",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#000000", "#000000"],
+        "align": "center",
+        "stroke": "",
+        "strokeThickness": 3,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsHeader": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 60,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsSummary": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "summaryText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "segmentText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff", "#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 3,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsHeader": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 65,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsSummary": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 50,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "summaryText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 45,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "segmentText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff", "#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 3,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsHeader": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 60,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsSummary": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "summaryText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "segmentText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff", "#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 3,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsHeader": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 60,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsSummary": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "summaryText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "segmentText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff", "#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 3,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsHeader": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 60,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsSummary": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "summaryText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "segmentText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff", "#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 3,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsHeader": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 60,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 400,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "congratulationsSummary": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#feffe1", "#e29039"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "summaryText": {
+        "text": "",
+        "fontFamily": "Arial",
+        "fontSize": 40,
+        "fontStyle": "normal",
+        "fontWeight": "bold",
+        "fill": ["#ffffff"],
+        "align": "center",
+        "stroke": "#000000",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 1500,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  ],
+  "gameHeader": {
+    "text": "",
+    "fontFamily": "Arial",
+    "fontSize": 35,
+    "fontStyle": "normal",
+    "fontWeight": "bold",
+    "fill": ["#f8fbad", "#d77f2f"],
+    "align": "left",
+    "stroke": "#000000",
+    "strokeThickness": 5,
+    "wordWrap": true,
+    "wordWrapWidth": 1000,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "spinAgain": {
+    "text": "SPIN AGAIN",
+    "fontFamily": "Arial",
+    "fontSize": 40,
+    "fontStyle": "normal",
+    "fontWeight": "bold",
+    "fill": ["#f8fbad", "#d77f2f"],
+    "align": "center",
+    "stroke": "#000000",
+    "strokeThickness": 0,
+    "wordWrap": true,
+    "wordWrapWidth": 600,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "spin": {
+    "text": "",
+    "fontFamily": "Impact",
+    "fontSize": 60,
+    "fontStyle": "normal",
+    "fontWeight": "bold",
+    "fill": ["#f8fad6"],
+    "align": "center",
+    "stroke": "#000000",
+    "strokeThickness": 6,
+    "wordWrap": true,
+    "wordWrapWidth": 1500,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "summaryHeader": {
+    "text": "",
+    "fontFamily": "Arial",
+    "fontSize": 60,
+    "fontStyle": "normal",
+    "fontWeight": "bold",
+    "fill": ["#f4c300"],
+    "align": "center",
+    "stroke": "#000000",
+    "strokeThickness": 5,
+    "wordWrap": true,
+    "wordWrapWidth": 400,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "summarySubHeader": {
+    "text": "",
+    "fontFamily": "Arial",
+    "fontSize": 40,
+    "fontStyle": "normal",
+    "fontWeight": "bold",
+    "fill": ["#f4c300"],
+    "align": "center",
+    "stroke": "#000000",
+    "strokeThickness": 5,
+    "wordWrap": true,
+    "wordWrapWidth": 1500,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "summaryWinSummation": {
+    "text": "",
+    "fontFamily": "Arial",
+    "fontSize": 40,
+    "fontStyle": "normal",
+    "fontWeight": "bold",
+    "fill": ["#ffffff", "#ffffff"],
+    "align": "center",
+    "stroke": "#000000",
+    "strokeThickness": 5,
+    "wordWrap": true,
+    "wordWrapWidth": 1500,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  "summarySignUpNow": {
+    "text": "",
+    "fontFamily": "Arial",
+    "fontSize": 55,
+    "fontStyle": "normal",
+    "fontWeight": "bold",
+    "fill": ["#000000"],
+    "align": "center",
+    "stroke": "#000000",
+    "strokeThickness": 0,
+    "wordWrap": true,
+    "wordWrapWidth": 600,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  }
+}
