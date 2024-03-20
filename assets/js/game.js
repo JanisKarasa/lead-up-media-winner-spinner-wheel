@@ -14124,7 +14124,7 @@ window.utils = {
                         var h = t.charAt(0).toUpperCase() + t.substr(1) + "Plugin";
                         Pt(t, {
                             parser: function(t, e, i, r, n, s, o) {
-                                var a = u.com.leadup.plugins[h];
+                                var a = u.com.gameup.plugins[h];
                                 return a ? (a._cssRegister(), _[i].parse(t, e, i, r, n, s, o)) : (Z("Error: " + h + " js file not loaded."), n)
                             }
                         })
@@ -14632,8 +14632,8 @@ window.utils = {
                     for (e = this._firstPT; e;) e.f ? e.t[e.p](this.finals[e.p]) : e.t[e.p] = this.finals[e.p], e = e._next
             }
         })._autoCSS = !0, _gsScope._gsDefine("easing.Back", ["easing.Ease"], function(_) {
-            var i, r, e, t, n = _gsScope.LeadUpMedia || _gsScope,
-                s = n.com.leadup,
+            var i, r, e, t, n = _gsScope.GameUpVariable || _gsScope,
+                s = n.com.gameup,
                 o = 2 * Math.PI,
                 a = Math.PI / 2,
                 h = s._class,
@@ -14760,7 +14760,7 @@ window.utils = {
         "use strict";
         var e, i, p = {},
             r = f.document,
-            g = f.LeadUpMedia = f.LeadUpMedia || f;
+            g = f.GameUpVariable = f.GameUpVariable || f;
         if (!g.TweenLite) {
             var t, n, s, _, m, y = function(t) {
                     var e, i = t.split("."),
@@ -14768,7 +14768,7 @@ window.utils = {
                     for (e = 0; e < i.length; e++) r[i[e]] = r = r[i[e]] || {};
                     return r
                 },
-                c = y("com.leadup"),
+                c = y("com.gameup"),
                 v = 1e-10,
                 h = function(t) {
                     var e, i = [],
@@ -14787,12 +14787,12 @@ window.utils = {
                     this.check = function(t) {
                         for (var e, i, r, n, s = h.length, o = s; - 1 < --s;)(e = T[h[s]] || new w(h[s], [])).gsClass ? (c[s] = e.gsClass, o--) : t && e.sc.push(this);
                         if (0 === o && u) {
-                            if (r = (i = ("com.leadup." + a).split(".")).pop(), n = y(i.join("."))[r] = this.gsClass = u.apply(u, c), l)
+                            if (r = (i = ("com.gameup." + a).split(".")).pop(), n = y(i.join("."))[r] = this.gsClass = u.apply(u, c), l)
                                 if (g[r] = p[r] = n, "undefined" != typeof module && module.exports)
                                     if (a === d)
                                         for (s in module.exports = p[d] = n, p) n[s] = p[s];
                                     else p[d] && (p[d][r] = n);
-                            else "function" == typeof define && define.amd && define((f.leadupAMDPath ? f.leadupAMDPath + "/" : "") + a.split(".").pop(), [], function() {
+                            else "function" == typeof define && define.amd && define((f.gameupAMDPath ? f.gameupAMDPath + "/" : "") + a.split(".").pop(), [], function() {
                                 return n
                             });
                             for (s = 0; s < this.sc.length; s++) this.sc[s].check()
@@ -15523,14 +15523,14 @@ window.utils = {
     function(t) {
         "use strict";
         var e = function() {
-            return (_gsScope.LeadUpMedia || _gsScope).CustomEase
+            return (_gsScope.GameUpVariable || _gsScope).CustomEase
         };
         "undefined" != typeof module && module.exports ? (require("../TweenLite.min.js"), module.exports = e()) : "function" == typeof define && define.amd && define(["TweenLite"], e)
     }(), ((_gsScope = "undefined" != typeof module && module.exports && "undefined" != typeof global ? global : this || window)._gsQueue || (_gsScope._gsQueue = [])).push(function() {
         "use strict";
         _gsScope._gsDefine("easing.Back", ["easing.Ease"], function(_) {
-            var i, r, e, t, n = _gsScope.LeadUpMedia || _gsScope,
-                s = n.com.leadup,
+            var i, r, e, t, n = _gsScope.GameUpVariable || _gsScope,
+                s = n.com.gameup,
                 o = 2 * Math.PI,
                 a = Math.PI / 2,
                 h = s._class,
@@ -15656,7 +15656,7 @@ window.utils = {
     function() {
         "use strict";
         var t = function() {
-            return _gsScope.LeadUpMedia || _gsScope
+            return _gsScope.GameUpVariable || _gsScope
         };
         "undefined" != typeof module && module.exports ? (require("../TweenLite.min.js"), module.exports = t()) : "function" == typeof define && define.amd && define(["TweenLite"], t)
     }();
